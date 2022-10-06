@@ -2602,7 +2602,8 @@ var EVENTS = [
   [EVENT_AUTOPLAY_PLAY, "onAutoplayPlay"],
   [EVENT_AUTOPLAY_PLAYING, "onAutoplayPlaying"],
   [EVENT_AUTOPLAY_PAUSE, "onAutoplayPause"],
-  [EVENT_LAZYLOAD_LOADED, "onLazyLoadLoaded"]
+  [EVENT_LAZYLOAD_LOADED, "onLazyLoadLoaded"],
+  [EVENT_OVERFLOW, "onOverflow"]
 ];
 
 // src/js/utils/classNames/classNames.ts

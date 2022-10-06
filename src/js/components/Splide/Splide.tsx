@@ -130,6 +130,7 @@ export class Splide extends React.Component<SplideProps> {
 
       if ( typeof handler === 'function' ) {
         splide.on( event, ( ...args: any[] ) => {
+          // @ts-ignore
           handler( splide, ...args );
         } );
       }
